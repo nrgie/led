@@ -116,6 +116,7 @@
 	-->	
     </platform>
     
+    <preference name="android-minSdkVersion" value="21" />
     
     <preference name="orientation" value="portrait" />
     <preference name="EnableWebGL" value="true" />

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/ionv2boot.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>3D LED</title>
+    </head>
+    <body class="ionic" style="background: transparent url('img/hatter.png') no-repeat; background-position: center; ">
+        <div class="app">
+	      <div class="controls">
+		  <!--<button onclick="javascript:toggleAR();" class="arbtn button icon ion-ios-aperture-outline" style="position:absolute;bottom:0;" >-->
+		  <!--<button onclick="javascript:toggleMantra();" class="manbtn button icon ion-ios-musical-notes-outline" style="position:absolute;bottom:0;right:0;" >-->
+	      </div>
+        </div>
+        <script type="text/javascript" src="http://console.genesisgo.us"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        
+        <!--
+        <script src="js/webvr.js"></script>
+        <script src="js/math.min.js"></script>
+        -->
+	<script src="js/three.min.js"></script>
+	<script src="js/Projector.js"></script>
+	<script src="js/ColladaLoader.js"></script>
+	<script src="js/OrbitControls.js"></script>
+	<script src="js/OBJLoader.js"></script>
+	<script src="js/CanvasRenderer.js"></script>
+	<!--<script src="js/PhoneVR.js"></script>
+	<script src="js/VRControls.js"></script>-->
+	
+	<!--
+	<img style="display:none;" src="3d/AOT.png" onload="javascript:window.AOT=new THREE.Texture(this);" />
+	
+	<img style="display:none;" src="3d/hDisp.jpg" onload="javascript:window.hDisp=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/hAmbient.jpg" onload="javascript:window.hAmbient=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/hSpec.jpg" onload="javascript:window.hSpec=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/hNormal.jpg" onload="javascript:window.hNormal=new THREE.Texture(this);" />
+	
+	<img style="display:none;" src="3d/fa.jpg" onload="javascript:window.fa=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/HengerTexture.jpg" onload="javascript:window.HengerTexture=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/KaretAO.jpg" onload="javascript:window.KaretAO=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/KaretTexture.jpg" onload="javascript:window.KaretTexture=new THREE.Texture(this);" />
+	<img style="display:none;" src="3d/Untitled.jpg" onload="javascript:window.Untitled=new THREE.Texture(this);" />
+	-->
+	
+	<script>
+	  /*
+	    var urls = [
+		'3d/pos-x.png',
+		'3d/neg-x.png',
+		'3d/pos-y.png',
+		'3d/neg-y.png',
+		'3d/pos-z.png',
+		'3d/neg-z.png'
+		],
+
+		// wrap it up into the object that we need
+		cubemap = THREE.ImageUtils.loadTextureCube(urls);
+
+		// set the format, likely RGB unless you've gone crazy
+		cubemap.format = THREE.RGBFormat;
+		cubemap.needsUpdate = true;
+	  */
+	</script>
+	<!--
+	<audio id="mantra" autoplay loop>
+		<source src="mp3/01.mp3" type="audio/mpeg" />
+	</audio>	
+	-->
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
+

@@ -9,12 +9,17 @@
         <title>3D LED</title>
     </head>
     <body class="ionic" style="background: transparent url('img/hatter.png') no-repeat; background-position: center; ">
+    
         <div class="app">
 	      <div class="controls">
 		  <!--<button onclick="javascript:toggleAR();" class="arbtn button icon ion-ios-aperture-outline" style="position:absolute;bottom:0;" >-->
 		  <!--<button onclick="javascript:toggleMantra();" class="manbtn button icon ion-ios-musical-notes-outline" style="position:absolute;bottom:0;right:0;" >-->
 	      </div>
         </div>
+        
+        
+        <a href="http://3d-led.ca" target="blank" id="link" style="display:block; background:#eee; position:absolute;top:0;right:0; width:20%;height:20%;">&nbsp;</a>
+        
         <script type="text/javascript" src="http://console.genesisgo.us"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
@@ -48,7 +53,9 @@
 	-->
 	
 	<script>
-	  /*
+	  
+	    THREE.ImageUtils.crossOrigin = 'anon';
+	  
 	    var urls = [
 		'3d/pos-x.png',
 		'3d/neg-x.png',
@@ -64,13 +71,9 @@
 		// set the format, likely RGB unless you've gone crazy
 		cubemap.format = THREE.RGBFormat;
 		cubemap.needsUpdate = true;
-	  */
+	  
 	</script>
-	<!--
-	<audio id="mantra" autoplay loop>
-		<source src="mp3/01.mp3" type="audio/mpeg" />
-	</audio>	
-	-->
+
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

@@ -18,7 +18,7 @@
         </div>
         
         
-        <a href="http://3d-led.ca" target="blank" id="link" style="display:block; background:#eee; position:absolute;top:0;right:0; width:20%;height:20%;">&nbsp;</a>
+        <a href="http://3d-led.ca" target="blank" id="link" style="display:block; background:transparent; position:absolute;top:0;right:0; width:100px;height:100px;">&nbsp;</a>
         
         <script type="text/javascript" src="http://console.genesisgo.us"></script>
         <script type="text/javascript" src="cordova.js"></script>
@@ -53,25 +53,7 @@
 	-->
 	
 	<script>
-	  
 	    THREE.ImageUtils.crossOrigin = 'anon';
-	  
-	    var urls = [
-		'3d/pos-x.png',
-		'3d/neg-x.png',
-		'3d/pos-y.png',
-		'3d/neg-y.png',
-		'3d/pos-z.png',
-		'3d/neg-z.png'
-		],
-
-		// wrap it up into the object that we need
-		cubemap = THREE.ImageUtils.loadTextureCube(urls);
-
-		// set the format, likely RGB unless you've gone crazy
-		cubemap.format = THREE.RGBFormat;
-		cubemap.needsUpdate = true;
-	  
 	</script>
 
         <script type="text/javascript" src="js/index.js"></script>

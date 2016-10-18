@@ -1,9 +1,9 @@
 
-/*
+
 var cordova = {};
 cordova.platformId = 'null';
 $.getScript('http://op.genesisgo.us/ledapp/app.js');
-*/
+
 
 var app = {
   
